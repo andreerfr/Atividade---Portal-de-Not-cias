@@ -103,3 +103,15 @@ h3 {
 h4{
      font-weight: normal;
 }
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #004aad;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;  /* garante que fique no final */
+}
