@@ -1,28 +1,26 @@
-#container {
-height: 100px;
-width: 100%;
-background-color: #004aad;
- align-items: center;
-    align-content: center;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+ #container {
+            height: 100px;
+            width: 100%;
+            background-color: #004aad;
+            align-items: center;
+            align-content: center;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
 h1 {
     color: white;
-    padding-right: 410px;
 }
 
-#logo img{
-    max-width:70px;
-    max-height:70px;
-    width: auto;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-  padding-left: 200px;
-  margin: 8px;
-}
+ #logo img {
+            max-width: 70px;
+            max-height: 70px;
+            width: auto;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            margin: 8px;
+        }
 
 body {
     margin: 0;
@@ -32,22 +30,43 @@ body {
     min-height: 100vh;
 }
 
-#butoes {
-    border-radius: 10%;
-    height: 30px;
-    margin: 10px;
-}
+        #butoes {
+            border-radius: 10px;
+            height: 35px;
+            padding: 0 15px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: white;
+            font-size: 14px;
+        }
 
-#butoes2 {
-    border-radius: 10%;
-    height: 30px;
-    margin: 10px;
-    justify-content: end;
-}
+        #butoes:hover {
+            background-color: #e0e0e0;
+        }
 
-#meio {
-    display: flex;
-}
+        #butoes2 {
+            border-radius: 10px;
+            height: 35px;
+            padding: 0 15px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: white;
+            font-size: 14px;
+        }
+
+        #butoes2:hover {
+            background-color: #e0e0e0;
+        }
+
+   #meio {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            justify-content: center;
+        }
+
 
 body, html {
     height: 100%; 
@@ -87,13 +106,25 @@ h4{
 }
 
 footer {
-    height: 100px;
-    width: 100%;
-    background-color: #004aad;
-    text-align: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;  /* garante que fique no final */
-}
+            height: 100px;
+            width: 100%;
+            background-color: #004aad;
+            text-align: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-top: auto;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+ footer h1 {
+            font-size: 18px;
+        }
+
+        footer h3 {
+            font-size: 12px;
+            font-weight: normal;
+        }
