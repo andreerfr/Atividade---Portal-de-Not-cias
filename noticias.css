@@ -128,3 +128,30 @@ footer {
             font-size: 12px;
             font-weight: normal;
         }
+
+
+#maisnoticias {
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 1%;
+    padding-top: 0;
+    justify-items: center;
+    justify-content: center;
+}
+
+#imgmn {
+height: 180px;
+width: 300px;
+border-radius: 8px;
+margin: 3px;
+}
+
+#partebaixo {
+    text-align: center;
+}
+
+#partebaixotexto {
+   max-width: 300px;
+    text-align: center; 
+}
